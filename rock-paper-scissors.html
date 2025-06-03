@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rock-paper-scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="green">
+  <p>laro ka muna nigga pindutin mo lng yan</p>
+  
+  <button onclick="
+  
+    let randomNumber = Math.random();
+
+    let AImove = '';
+
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+      AImove = 'rock';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+      AImove = 'paper';
+    } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+      AImove = 'scissors';
+    }
+
+    console.log(AImove);
+
+    let result = '';
+
+    if (AImove === 'rock') {
+      result = 'tie lng kupal';
+    } else if (AImove === 'paper') {
+      result = 'lose bonak pak u';
+    } else if (AImove === 'scissors') {
+      result = 'win chamba lng pak u';
+    }
+
+    alert(`you pick rock. computer pick ${AImove}. you ${result}`);
+  
+  ">rock</button>
+
+  <button onclick="
+  
+    let randomNumber = Math.random();
+
+    let AImove = '';
+
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+      AImove = 'rock';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+      AImove = 'paper';
+    } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+      AImove = 'scissors';
+    }
+
+    console.log(AImove);
+
+    let result = '';
+
+    if (AImove === 'rock') {
+      result = 'win chamba lng pak u';
+    } else if (AImove === 'paper') {
+      result = 'tie lng kupal';
+    } else if (AImove === 'scissors') {
+      result = 'lose bonak pak u';
+    }
+
+    alert(`you pick paper. computer pick ${AImove}. you ${result}`);
+  
+  ">paper</button>
+
+  <button onclick="
+  
+    let randomNumber = Math.random();
+
+    let AImove = '';
+
+    if (randomNumber >= 0 && randomNumber < 1 / 3) {
+      AImove = 'rock';
+    } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+      AImove = 'paper';
+    } else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+      AImove = 'scissors';
+    }
+
+    console.log(AImove);
+
+    let result = '';
+
+    if (AImove === 'rock') {
+      result = 'lose. talo ng bot pak u';
+    } else if (AImove === 'paper') {
+      result = 'win chamba lng pak u';
+    } else if (AImove === 'scissors') {
+      result = 'tie lng kupal';
+    }
+
+    alert(`you pick scissors. computer pick ${AImove}. you ${result}`);
+  
+  ">scissors</button>
+
+  <script>
+
+  </script>
+</body>
+</html>
